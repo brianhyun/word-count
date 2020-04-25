@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Word Counter</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Manrope:200,300,400,600,700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/200654fd19.js" crossorigin="anonymous"></script>
+
+    <!-- Animations -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+
+    <!-- This feature container is separated into two sections: the feature section and the message container. The feature section consists of the two features: (1) clear input field and (2) change font size. The message container is the main feature that consists of the message statistics and the message text area. -->
+
+    <!--#### Main Container ####-->
+    <div class="main-container">
+
+      <h1 class="title">Word Count<span class="blinking-cursor">|</span></h1>
+
+      <!--### Word Count Container ###-->
+      <div class="word-count-container">
+
+        <!--## Feature Container ##-->
+        <div class="feature-container">
+
+          <!--# Clear Field Feature #-->
+          <div class="feature clear-field">
+            <div class="clear-field-explanation">
+              <div class="text">
+                Clear Entry
+                <div class="clear-field-arrow">
+                  <!-- div with class text created in order to create arrow with absolute positioning  -->
+                </div>
+              </div>
+            </div>
+
+            <i class="clear-field-icon fas fa-broom"></i>
+          </div>
+
+          <!--# Change Font Size Feature #-->
+          <div class="feature change-font-size">
+            <div class="change-font-size-explanation">
+              <div class="text font-options">
+                <i id="small-font" class="unclicked font-size-options fas fa-font"></i>
+                <i id="medium-font" class="clicked font-size-options fas fa-font"></i>
+                <i id="large-font" class="unclicked font-size-options fas fa-font"></i>
+
+                <div class="font-size-arrow">
+                  <!-- div with class text created in order to create arrow with absolute positioning -->
+                </div>
+              </div>
+            </div>
+
+            <i class="font-size-icon fas fa-font"></i>
+
+          </div>
+        </div>
+
+
+
+        <!-- ############################################################ -->
+
+
+
+        <!--## Message Container ##-->
+        <div class="message-container">
+
+          <!--# Message Statistics #-->
+          <div class="message-stats">
+            <div class="stat-div">
+              <p class="stat-heading">Words</p>
+              <p class="stat word-count">0</p>
+            </div>
+
+            <div class="stat-div">
+              <p class="stat-heading">Characters</p>
+              <p class="stat char-count">0</p>
+            </div>
+          </div>
+
+          <hr>
+
+          <!--# Message Textarea #-->
+          <div class="message">
+            <textarea name="message" placeholder="Type or paste in your text"></textarea>
+          </div>
+
+        </div> <!-- message container -->
+      </div> <!-- word count container -->
+    </div> <!-- main container -->
+
+    <!-- Scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="scripts/index.js"></script>
+  </body>
+</html>
