@@ -6,7 +6,7 @@ A single-page website that calculates the number of words and characters in a te
 
 ### Demo
 
-![Word Count Demo](https://media.giphy.com/media/TjSgFDHhGtBGGqghfr/giphy.gif)
+![Word Count Demo](https://media.giphy.com/media/l4Fs7O6voLocuy7jHg/giphy.gif)
 
 ### Final Product Screenshot
 
