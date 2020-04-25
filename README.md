@@ -1,4 +1,4 @@
-# Number Guessing Game - HTML/CSS/JS
+# Word Count - HTML/CSS/JS
 
 [Link to Completed Web Page](https://brianhyun.github.io/word-count/)
 
